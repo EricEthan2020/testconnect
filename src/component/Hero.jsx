@@ -106,5 +106,4 @@ const Hero = () => {
     </Container>
   );
 };
-
-export default Hero;
+export default Hero

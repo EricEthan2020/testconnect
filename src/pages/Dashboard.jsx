@@ -1,17 +1,15 @@
 import React from "react";
-import Container from "../component/Container";
-import Hero from "../component/Hero";
-import Footer from "../component/Footer";
 import Header from "../component/Header";
+import Hero from "../component/Hero";
 import Video from "../component/Video";
 import Ourservices from "../component/Ourservices";
-import Slider from "../component/Slider";
-import OurClients from "../component/OurClients";
+import Footer from "../component/Footer";
+import Container from "../component/Container";
 const DashBoard = () => {
   return (
     <Container>
       <Header />
-      <Hero />
+      <Hero/>
       <Video />
       <Ourservices />
       <Footer />
