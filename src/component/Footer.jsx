@@ -119,10 +119,10 @@ const Footer = () => {
               <div className="space-y-3 text-center md:text-left">
                 <h2 className="text-primary text-xl font-bold">Contact Us</h2>
                 <p className="flex justify-center md:justify-start items-center gap-2">
-                  hello@connectstudio.info
+                  hello@ericethan.info
                 </p>
                 <p className="flex justify-center md:justify-start items-center gap-2">
-                  +95 9 786 33 8 957
+                  +95 9 780190230
                 </p>
               </div>
             </div>
