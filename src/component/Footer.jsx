@@ -5,11 +5,11 @@ const Footer = () => {
   return (
     <Container>
       <footer className="bg-gradient-to-r from-[#2f7cc2] to-[#082274] text-white w-full">
-        <div class="py-24 px-4 sm:px-6 lg:px-8">
-          <div class="max-w-7xl mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 text-sm md:text-base">
-              <div class="text-center md:text-left">
-                <div class="flex justify-center md:justify-start mb-4">
+        <div className="py-24 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-10 text-sm md:text-base">
+              <div className="text-center md:text-left">
+                <div className="flex justify-center md:justify-start mb-4">
                   <img
                     alt="Logo"
                     loading="lazy"
@@ -17,42 +17,42 @@ const Footer = () => {
                     height="50"
                     decoding="async"
                     data-nimg="1"
-                    srcset="https://connectstudio.info/_next/image?url=%2FFooter%20Logo.png&w=64&q=75"
+                    srcSet="https://connectstudio.info/_next/image?url=%2FFooter%20Logo.png&w=64&q=75"
                     src="https://connectstudio.info/_next/image?url=%2FFooter%20Logo.png&w=64&q=75"
                   />
                 </div>
-                <p class="text-primary text-2xl font-semibold">
+                <p className="text-primary text-2xl font-semibold">
                   Connecting Potential,
                 </p>
-                <p class="font-semibold text-2xl text-white">Creating Impact</p>
+                <p className="font-semibold text-2xl text-white">Creating Impact</p>
               </div>
-              <div class="space-y-3 text-center md:text-left">
-                <h2 class="text-primary text-xl font-bold">Pages</h2>
-                <a class="block hover:underline" href="/">
+              <div className="space-y-3 text-center md:text-left">
+                <h2 className="text-primary text-xl font-bold">Pages</h2>
+                <a className="block hover:underline" href="/">
                   Home
                 </a>
-                <a class="block hover:underline" href="/about-us">
+                <a className="block hover:underline" href="/about-us">
                   About
                 </a>
-                <a class="block hover:underline" href="/work">
+                <a className="block hover:underline" href="/work">
                   Work
                 </a>
-                <a class="block hover:underline" href="/contact-us">
+                <a className="block hover:underline" href="/contact-us">
                   Contact
                 </a>
               </div>
-              <div class="space-y-3 text-center md:text-left">
-                <h2 class="text-primary text-xl font-bold">Connect Us</h2>
+              <div className="space-y-3 text-center md:text-left">
+                <h2 className="text-primary text-xl font-bold">Connect Us</h2>
                 <a
-                  class="flex items-center justify-center md:justify-start gap-2 hover:underline"
+                  className="flex items-center justify-center md:justify-start gap-2 hover:underline"
                   href="#"
                 >
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 320 512"
-                    class="text-primary"
+                    className="text-primary"
                     height="1em"
                     width="1em"
                     xmlns="http://www.w3.org/2000/svg"
@@ -62,15 +62,15 @@ const Footer = () => {
                   Facebook
                 </a>
                 <a
-                  class="flex items-center justify-center md:justify-start gap-2 hover:underline"
+                  className="flex items-center justify-center md:justify-start gap-2 hover:underline"
                   href="#"
                 >
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 448 512"
-                    class="text-primary"
+                    className="text-primary"
                     height="1em"
                     width="1em"
                     xmlns="http://www.w3.org/2000/svg"
@@ -80,15 +80,15 @@ const Footer = () => {
                   Instagram
                 </a>
                 <a
-                  class="flex items-center justify-center md:justify-start gap-2 hover:underline"
+                  className="flex items-center justify-center md:justify-start gap-2 hover:underline"
                   href="#"
                 >
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 448 512"
-                    class="text-primary"
+                    className="text-primary"
                     height="1em"
                     width="1em"
                     xmlns="http://www.w3.org/2000/svg"
@@ -98,15 +98,15 @@ const Footer = () => {
                   Line
                 </a>
                 <a
-                  class="flex items-center justify-center md:justify-start gap-2 hover:underline"
+                  className="flex items-center justify-center md:justify-start gap-2 hover:underline"
                   href="#"
                 >
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 512 512"
-                    class="text-primary"
+                    className="text-primary"
                     height="1em"
                     width="1em"
                     xmlns="http://www.w3.org/2000/svg"
@@ -116,17 +116,17 @@ const Footer = () => {
                   Viber
                 </a>
               </div>
-              <div class="space-y-3 text-center md:text-left">
-                <h2 class="text-primary text-xl font-bold">Contact Us</h2>
-                <p class="flex justify-center md:justify-start items-center gap-2">
+              <div className="space-y-3 text-center md:text-left">
+                <h2 className="text-primary text-xl font-bold">Contact Us</h2>
+                <p className="flex justify-center md:justify-start items-center gap-2">
                   hello@connectstudio.info
                 </p>
-                <p class="flex justify-center md:justify-start items-center gap-2">
+                <p className="flex justify-center md:justify-start items-center gap-2">
                   +95 9 786 33 8 957
                 </p>
               </div>
             </div>
-            <p class="text-center text-primary text-md mt-14">
+            <p className="text-center text-primary text-md mt-14">
               © 2025 Connect Studio, All Rights Reserved.
             </p>
           </div>
